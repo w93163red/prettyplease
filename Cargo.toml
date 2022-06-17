@@ -2,8 +2,8 @@
 name = "prettyplease"
 version = "0.1.12"
 authors = ["David Tolnay <dtolnay@gmail.com>"]
-edition = "2021"
-rust-version = "1.56"
+edition = "2018"
+#rust-version = "1.56"
 license = "MIT OR Apache-2.0"
 description = "A minimal `syn` syntax tree pretty-printer"
 repository = "https://github.com/dtolnay/prettyplease"

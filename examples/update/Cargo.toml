@@ -2,7 +2,7 @@
 name = "prettyplease-update-examples"
 version = "0.0.0"
 authors = ["David Tolnay <dtolnay@gmail.com>"]
-edition = "2021"
+edition = "2018"
 publish = false
 
 [[bin]]

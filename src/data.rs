@@ -84,7 +84,7 @@ impl Printer {
             && matches!(vis.path.segments[0].arguments, PathArguments::None)
             && matches!(
                 vis.path.segments[0].ident.to_string().as_str(),
-                "self" | "super" | "crate",
+                "self" | "super" | "crate"
             );
         if !omit_in {
             self.word("in ");

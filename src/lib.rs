@@ -319,7 +319,9 @@
 //! The printing algorithm implementation in this crate accommodates all of
 //! these situations with conditional punctuation tokens whose selection can be
 //! deferred and populated after it's known that the group is or is not broken.
-
+#![feature(bool_to_option)]
+#![feature(or_patterns)]
+#![feature(bindings_after_at)]
 #![allow(
     clippy::cast_possible_wrap,
     clippy::cast_sign_loss,
